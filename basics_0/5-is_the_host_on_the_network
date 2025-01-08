@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+target="8.8.8.8"
+
+count=5
+
+ping -c $count $target
+
