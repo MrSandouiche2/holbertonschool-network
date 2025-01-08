@@ -1,7 +1,3 @@
 #!/bin/bash
 
-echo "Active Internet connections (only servers)"
-ss -tulnp | awk 'NR==1 || /LISTEN/'
-
-echo "Active UNIX domain sockets (only servers)"
-ss -xln | awk 'NR==1 || /LISTEN/'
+netstat -l -p
