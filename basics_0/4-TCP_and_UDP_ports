@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # script
-ss -tuln -p
+netstat -tuln -p
